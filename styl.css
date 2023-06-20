@@ -1,0 +1,195 @@
+.header{
+	background-color:rgba(0,0,0,0.8);
+	color:#fff; 
+	border-color: #080808; 
+	min-height: 50px;
+	
+    overflow: hidden;
+	position: fixed;
+    top:0;
+    width:100%;
+}
+.header a{
+color:white;
+}
+.footer a{
+color:white;
+}
+.inner-header{
+	width:90%; 
+	margin:auto;
+}
+.logo{
+	float: left;
+	width="50%";
+	
+	padding: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.header-link{
+	float:right; 
+	font-size:14px; 
+	 
+	padding: 15px 15px; 
+	
+	font-weight: bold;
+}
+.content{
+	min-height: 600px;
+}
+.banner-imagei{
+	padding-bottom: 500px;
+	margin-bottom: 20px; 
+	text-align: center; 
+	color: #f8f8f8; 
+	background: url(https://source.unsplash.com/950x633/?wedding,calender) no-repeat center;
+	background-size: cover;
+	
+}
+.banner-image{
+	padding-bottom: 50px;
+	margin-bottom: 20px; 
+	text-align: center; 
+	color: #f8f8f8; 
+	background: url(https://source.unsplash.com/950x633/?wedding,indian) no-repeat center;
+	background-size: cover;
+}
+.inner-banner-image{
+	padding-top: 12%;
+	width:80%;
+	margin:auto;
+}
+.banner-content{
+	position: relative;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	overflow:hidden;
+	margin-bottom: 12%;
+	background-color: rgba(0 , 0, 0, 0.7);
+	max-width: 660px;
+}
+.button{
+	color: #fff;
+	background-color: #c9302c;
+	border-color: #ac2925;
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+	padding: 10px 16px;
+	font-size: 18px;
+	border-radius: 6px;
+}
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+.items{
+	width:30%;
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	float:left;
+	margin-left:1%;
+	
+	
+}
+.thumbnail{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.caption{
+	color:#000;
+	padding:0px 10px 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.footer{
+	background-color: #000;
+	color:#fff;
+	font-size:14px;
+	position:fixed;
+    bottom:0;
+    width:100%;
+    
+}
+li:hover {
+  background-color: #696969;
+}
+.items:hover {
+  background-color: #FFD580;
+}
+
+.about{
+	background-color: rgba(255 , 255, 255, 0.5);
+	text-align: center;	
+	border-radius:6px;
+	color: rgba(125,125,225,1);
+	width:65% ;
+	text-shadow:2px 5px 3px rgba(225,167,225,0.9);
+	
+	}
+.about1{
+	
+    background-color: rgba(0, 167, 255, 0.5);
+	text-align: center; 
+	border-radius:6px;
+	color: rgba(0,0,0,1);
+	width:70% ;
+	text-shadow:2px 2px 3px rgba(225,167,225,0.9);
+	box-shadow:5px 3px 4px rgba(225,167,225,0.9);
+	transform: rotate(2deg);
+	}
+.shad{
+	text-shadow:3px 3px 4px  rgba(125,167,225,0.9);
+}
+.formbox{
+
+	background-color: rgba(225, 225, 225, 0.6);
+	box-shadow:5px 3px 4px rgba(0,0,0,0.9);
+	width:50%;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius:8px;
+	color:white ;
+	outline:none ;
+	margin:150px 20px 100px 20px ;
+
+}
+input {
+  background-color: rgba(255,192,203,0.5);
+  color: green;
+  border-radius:6px;
+  text-align: center; 
+  box-shadow:3px 3px 4px  rgba(0,0,0,0.7);
+  
+  
+ }
+ label{
+	text-shadow:3px 3px 4px  rgba(125,167,225,0.9);
+	
+ }
+ input[type=submit]{
+ color:red ;
+ background-color:rgba(0, 255, 0,0.5) ;
+ box-shadow:3px 3px 4px  rgba(0, 0, 0,0.7);
+ padding:1px 2px 1px 2px ;
+ font-weight: bold;
+ border-color:lightgreen ;
+ border-width:3px ;
+ 
+ }
+ body{
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+ select{ background-color:rgba(255,192,203,0.8);
+ 
+ }
+  
